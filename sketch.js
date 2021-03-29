@@ -18,7 +18,7 @@ var score = 0;
 //music
 function preload() {
   sound = loadSound("bensound-creativeminds.mp3");
-    //Background image
+    //Background images
   bg = loadImage('Forest.jpg');
   bg2 = loadImage('Waterfall forest.jpg');
   bg3 = loadImage('bg3.jpg');
