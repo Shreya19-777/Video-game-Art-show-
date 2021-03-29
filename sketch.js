@@ -18,6 +18,12 @@ var score = 0;
 //music
 function preload() {
   sound = loadSound("Creative.mp3");
+  //Background image
+  bg = loadImage('Forest.jpg');
+  bg2 = loadImage('Waterfall forest.jpg');
+  bg3 = loadImage('bg3.jpg');
+  bg4 = loadImage('Autumn.forest.jpg');
+  bg5 = loadImage('night.jpg');
 }
 
 function setup() {
@@ -25,12 +31,7 @@ function setup() {
   bgcolor = (25, 70, 100);
   createCanvas(440, 490);
 
-  //Background image
-  bg = loadImage('Forest.jpg');
-  bg2 = loadImage('Waterfall forest.jpg');
-  bg3 = loadImage('bg3.jpg');
-  bg4 = loadImage('Autumn.forest.jpg');
-  bg5 = loadImage('night.jpg');
+  
 
   //Coding train (Creating the button)
   createP('');
