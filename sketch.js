@@ -20,9 +20,9 @@ function preload() {
   sound = loadSound("bensound-creativeminds.mp3");
     //Background images
   bg = loadImage('Forest.jpg');
-  bg2 = loadImage('Waterfall forest.jpg');
+  bg2 = loadImage('Waterfall-forest.jpg');
   bg3 = loadImage('bg3.jpg');
-  bg4 = loadImage('Autumn.forest.jpg');
+  bg4 = loadImage('Autumn-forest.jpg');
   bg5 = loadImage('night.jpg');
 }
 
