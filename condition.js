@@ -1,3 +1,4 @@
+//My code 
 function win() {
   background(bg3);
   fill(255);
@@ -7,7 +8,7 @@ function win() {
   textSize(20);
   text('Reload page to play again!', 100, 300);
 }
-
+//Side-scroller and my code
 function gameOver() {
   background(bg5);
   textSize(30);
@@ -17,7 +18,7 @@ function gameOver() {
   text('Reload page to play again', 70, 270);
   console.log("Incorrect")
 }
-
+//My code
 function afterGame() {
   background(bg4);
   textSize(30);
